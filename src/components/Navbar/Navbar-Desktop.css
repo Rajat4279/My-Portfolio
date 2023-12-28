@@ -1,0 +1,39 @@
+/* DESKTOP NAV */
+
+#desktop-nav,
+.nav-links {
+    display: flex;
+}
+
+#desktop-nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.logo {
+    cursor: default;
+}

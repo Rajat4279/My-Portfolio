@@ -1,0 +1,19 @@
+#project {
+    position: relative;
+    height: fit-content;
+}
+
+.projects-about-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:800px) {
+    .projects-about-container {
+        width: 90%;
+        margin: 2rem auto;
+    }
+}
