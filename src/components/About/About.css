@@ -24,7 +24,13 @@
     display: flex;
 }
 
+.about-pic-container {
+    display: flex;
+    margin-top: 4.5rem;
+}
+
 .about-details-container {
+    align-items: center;
     justify-content: center;
     flex: column;
 }
