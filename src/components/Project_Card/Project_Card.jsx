@@ -8,10 +8,10 @@ function Project_Card(props) {
       </div>
       <h2 className="article-sub-title">{props.project}</h2>
       <div className="btn-container">
-        <button className="btn btn-color-2">
+        <button className="btn project-btn btn-color-2">
           <a href={props.github}>Github</a>
         </button>
-        <button className="btn btn-color-1">
+        <button className="btn project-btn btn-color-1">
           <a href={props.liveDemo} style={{ color: "white" }}>
             Live Demo
           </a>

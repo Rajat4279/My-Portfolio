@@ -27,6 +27,13 @@
     box-sizing: border-box;
 }
 
+.project-btn {
+    width: 7rem;
+    padding: 0.6rem 0;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+}
+
 @media screen and (max-width:600px) {
     .project-details-container {
         width: 100%;
